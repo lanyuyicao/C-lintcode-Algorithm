@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // compile
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "aplusb.cpp",
+                "-o",
+                "aplusb.exe"
+            ]
+        },
+        {
+            // compile the object file for debug
+            "label": "build-debug",
+            "command":"g++",
+            "args": [
+                "-g",// this parameter is used for compile the debugable object file
+                "aplusb.cpp",
+                "-o",
+                "aplusb_debug.exe"
+            ],
+            "type": "shell"
+        }
+    ]
+}
