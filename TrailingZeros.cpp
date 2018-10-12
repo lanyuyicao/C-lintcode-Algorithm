@@ -3,13 +3,12 @@ using namespace std;
 
 class Solution {
 public:
-    /**
-     * @param a: An integer
-     * @param b: An integer
-     * @return: The sum of a and b 
+    /*
+     * @param n: A long integer
+     * @return: An integer, denote the number of trailing zeros in n!
      */
-    int trailingzeros(int n) {
-        // write your code here
+    long long trailingZeros(long long n) {
+        // write your code here, try to do it without arithmetic operators.
     }
 };
 
