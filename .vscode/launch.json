@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/aplusb_debug.exe",
+            "program": "${workspaceFolder}/Trailing-Zeros_debug.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

@@ -9,9 +9,9 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "aplusb.cpp",
+                "Trailing-Zeros.cpp",
                 "-o",
-                "aplusb.exe"
+                "Trailing-Zeros.exe"
             ]
         },
         {
@@ -20,9 +20,9 @@
             "command":"g++",
             "args": [
                 "-g",// this parameter is used for compile the debugable object file
-                "aplusb.cpp",
+                "Trailing-Zeros.cpp",
                 "-o",
-                "aplusb_debug.exe"
+                "Trailing-Zeros_debug.exe"
             ],
             "type": "shell"
         }
